@@ -1,0 +1,96 @@
+html {
+	background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0.3) 0%), url('../../../public/images/glacier-bay-alaska.jpg') center / cover no-repeat;
+	background-attachment: fixed,						fixed;
+	background-position: top left,					center center;
+	background-repeat: repeat,						none;
+	background-size: auto,						cover;
+}
+
+body {
+	padding: 40px 80px 10px 60px;
+	margin:30px;
+}
+
+#post {
+	color:#242b3a;
+	background-color: #fafafa;
+	border-radius: 5px;
+	border: 2px solid #242b3a;
+	padding:20px 50px 10px 50px;
+}
+
+h1 {
+	padding:18px 50px 18px 50px;
+	font-size: 2em;
+	color:#242b3a;
+	border-radius: 5px;
+	border: 2px solid #242b3a;
+	background-color: #fafafa;
+}
+ b {
+ 	color:black;
+ }
+
+ #comments {
+ 	padding:10px 50px 10px 50px;
+ 	background-color: #333b43;
+ 	border-radius: 5px;
+	border: 2px solid #242b3a;
+ }
+
+ #comments input, #comments textarea {
+ 	background-color: #fafafa;
+ 	margin-bottom: 5px;
+ }
+
+#listcomments {
+	background-color: #fafafa;
+	padding:15px 10px 0px 15px;
+}
+
+.linkreport {
+	color: blue;
+}
+.linkreport:hover{
+	color:blue!important;
+	text-decoration: underline;
+}
+
+.comment {
+	border-bottom: 1px solid #e8e8e8; 
+	padding:14px 0px 14px 0px;
+}
+
+.message {
+	color:red;
+}
+
+@media all and (max-width: 680px) {
+	body {
+		margin:auto;
+		width:96%;
+		padding: 0;
+		padding-top:70px;
+		font-size: 0.9em;
+	}
+
+	article {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 1.6em;
+	}
+
+	h1, #post {
+		padding:10px;
+	}
+
+	#comments {
+		padding:5px;
+	}
+
+
+
+
+}
