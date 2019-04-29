@@ -1,0 +1,63 @@
+body {
+	background: linear-gradient(#000000 0%, rgba(0, 0, 0, 0.3) 0%);
+	padding: 0 7px 0 7px;
+}
+
+h1, h2 {
+	color: #fff;
+	text-shadow: 1px 1px #565271;
+	text-align: center;
+}
+
+h1:after {
+	background: #fff;
+				content: '';
+				display: block;
+				height: 2px;
+				margin: 0.75em auto 0 auto;
+				position: relative;
+				width: 4em;
+				box-shadow: 1px 1px #565271;
+}
+
+form{
+	background-color: #fff;
+	border-radius: 2px;
+	width: 90%;
+	margin: auto;
+}
+
+.formpost {
+	width:100%;
+	justify-content: center;
+	margin-bottom: 3em;
+
+}
+
+table {
+	border-radius: 2px;
+}
+
+thead {
+	border: 2px solid #fff;
+	background-color: #fff;
+}
+
+.white {
+	color:#fff;
+}
+
+#refreshbutton {
+	margin-bottom: 10px;
+}
+
+.errormessage {
+	color:red;
+}
+
+.connect {
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+}
